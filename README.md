@@ -44,4 +44,4 @@ I've built a couple of sanity checks into the "Behav.txt" file to use to evaluat
 - positive_image is the number of clean positive trials
 - negative_image is the number of clean negative trials
 - contamination_mismatch is a binary yes/no if the total clean trial count makes sense given contaminated trials. 
-	- **THIS SHOULD BE EVALUATED INDEPENDENTLY OF WHETHER OR NOT THE FILE IS NAMED "_recoded_check.evt" OR NOT!**
+	- **THIS SHOULD BE EVALUATED INDEPENDENTLY OF WHETHER OR NOT THE FILE IS NAMED "_recoded_check.evt"!**
