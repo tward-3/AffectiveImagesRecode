@@ -38,10 +38,10 @@ If you manually recode someone, you can rerun the recode on the "_recoded.evt" o
 Another thing to note: the "Behav.txt" file does not output the participant ID, so when putting these results into an excel sheet, make sure the IDs in that sheet are in the same order as the files in your directory in MATLAB.
 
 I've built a couple of sanity checks into the "Behav.txt" file to use to evaluate if things worked right and see if numbers add up:
-	- number_correctoddball is the number of oddballs that have a response (whether technically in time or not)
-	- number_incorrectoddball is the number of oddballs that do not have a response at all
-	- contaminated is the number of trials that are contaminated by a late oddball response
-	- positive_image is the number of clean positive trials
-	- negative_image is the number of clean negative trials
-	- contamination_mismatch is a binary yes/no if the total clean trial count makes sense given contaminated trials. 
-		- **THIS SHOULD BE EVALUATED INDEPENDENTLY OF WHETHER OR NOT THE FILE IS NAMED "_recoded_check.evt" OR NOT!**
+- number_correctoddball is the number of oddballs that have a response (whether technically in time or not)
+- number_incorrectoddball is the number of oddballs that do not have a response at all
+- contaminated is the number of trials that are contaminated by a late oddball response
+- positive_image is the number of clean positive trials
+- negative_image is the number of clean negative trials
+- contamination_mismatch is a binary yes/no if the total clean trial count makes sense given contaminated trials. 
+	- **THIS SHOULD BE EVALUATED INDEPENDENTLY OF WHETHER OR NOT THE FILE IS NAMED "_recoded_check.evt" OR NOT!**
