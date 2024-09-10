@@ -35,9 +35,9 @@ If that's the case, then the stim trigger in the trial that button press occurs 
 
 If you manually recode someone, you can rerun the recode on the "_recoded.evt" or "_recoded_check.evt" files to re-calculate their behavior, and it should (theoretically) work.
 
-Another thing to note: the "Behav.txt" file does not output URSIs, so when putting these results into an excel sheet, make sure the URSIs in that sheet are in the same order as the files in your directory in matlab.
+Another thing to note: the "Behav.txt" file does not output the participant ID, so when putting these results into an excel sheet, make sure the IDs in that sheet are in the same order as the files in your directory in MATLAB.
 
-I've built a couple of sanity checks into the "Behav.txt" file that you can use to evaluate if things worked right and see if numbers add up:
+I've built a couple of sanity checks into the "Behav.txt" file to use to evaluate if things worked right and see if numbers add up:
 	- number_correctoddball is the number of oddballs that have a response (whether technically in time or not)
 	- number_incorrectoddball is the number of oddballs that do not have a response at all
 	- contaminated is the number of trials that are contaminated by a late oddball response
