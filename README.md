@@ -1,12 +1,12 @@
 # AffectiveImagesRecode
-Trigger recode for the Affective Images MEG task
+Trigger recode for the Affective Images MEG task to calculate behavioral metrics and ensure trials contaminated by late responses to oddballs are removed.
 
-This script needs the original EVTs, so you will have to put all original EVTs into one place. 
+This script needs the original event files (.EVTs), so you will have to put all original EVTs into one place. 
 
 It will output either a "_recoded.evt" or a "_recoded_check.evt." 
 If it says check, then that means there are extraneous triggers that may or may not need to be manually recoded. 
 
-If the script went as it should, you should see something like this, with no random triggers not on the trigger recode legend:
+If the script went as it should, you should see something like this, with no random triggers that are not on the trigger recode legend:
 
 	30 (fixation)
 	31 (stimulus)
